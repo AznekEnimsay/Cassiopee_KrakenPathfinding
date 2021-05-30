@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="graphic-toolbox-1.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/kraken-display/target/graphic-toolbox-1.4-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

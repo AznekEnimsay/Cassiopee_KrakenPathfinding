@@ -2,25 +2,25 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>pfg.kraken</groupId>
-  <artifactId>kraken</artifactId>
-  <version>2.0.2-SNAPSHOT</version>
+  <groupId>pfg.log</groupId>
+  <artifactId>log</artifactId>
+  <version>1.0</version>
 
   <packaging>jar</packaging>
 
-  <name>The Kraken Pathfinding</name>
-  <description>Kraken: a tentacle-based pathfinding library for nonholonomic robotic vehicles</description>
+  <name>Log</name>
+  <description>A simple log library</description>
 
-  <url>https://github.com/PFGimenez/The-Kraken-Pathfinding</url>
+  <url>https://github.com/PFGimenez/log</url>
 
   <properties>
-      <maven.compiler.source>13</maven.compiler.source>
-      <maven.compiler.target>13</maven.compiler.target>
+      <maven.compiler.source>1.8</maven.compiler.source>
+      <maven.compiler.target>1.8</maven.compiler.target>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <github.global.server>github</github.global.server>
   </properties>
 
-	<licenses>
+  <licenses>
 		<license>
 			<name>MIT License</name>
 			<url>http://www.opensource.org/licenses/mit-license.php</url>
@@ -29,9 +29,9 @@
     </licenses>
 
     	<scm>
-            <url>https://github.com/PFGimenez/The-Kraken-Pathfinding</url>
-            <connection>scm:git:git://github.com/PFGimenez/The-Kraken-Pathfinding.git</connection>
-            <developerConnection>scm:git:git@github.com:PFGimenez/The-Kraken-Pathfinding.git</developerConnection>
+            <url>https://github.com/PFGimenez/log</url>
+            <connection>scm:git:git://github.com/PFGimenez/log.git</connection>
+            <developerConnection>scm:git:git@github.com:PFGimenez/log.git</developerConnection>
     </scm>
 
 	<developers>
@@ -55,40 +55,6 @@
         </repository>
     </repositories>
 
-  <dependencies>
-    <dependency>
-      <groupId>pfg.injector</groupId>
-      <artifactId>dependency-injector</artifactId>
-      <version>1.1</version>
-    </dependency>
-
-    <dependency>
-      <groupId>pfg.config</groupId>
-      <artifactId>config</artifactId>
-      <version>1.4</version>
-    </dependency>
-
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-      <scope>test</scope>
-    </dependency>
-      <dependency>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-          <version>RELEASE</version>
-          <scope>test</scope>
-      </dependency>
-      <dependency>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-          <version>RELEASE</version>
-          <scope>test</scope>
-      </dependency>
-
-  </dependencies>
-
 <distributionManagement>
   <repository>
     <id>packagecloud-travis</id>
@@ -104,9 +70,19 @@
   </snapshotRepository>
 </distributionManagement>
 
-<build>
+  <dependencies>
+
+    <dependency>
+      <groupId>pfg.config</groupId>
+     <artifactId>config</artifactId>
+      <version>1.4</version>
+    </dependency>
+
+  </dependencies>
+
+  <build>
       <plugins>
-    <plugin>
+          <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.16</version>
@@ -114,25 +90,14 @@
             <enableAssertions>true</enableAssertions>
         </configuration>
     </plugin>
-          <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-compiler-plugin</artifactId>
-              <version>3.8.1</version>
-              <configuration>
-                  <source>13</source>
-                  <target>13</target>
-              </configuration>
-          </plugin>
       </plugins>
-
     <extensions>
     <extension>
       <groupId>io.packagecloud.maven.wagon</groupId>
       <artifactId>maven-packagecloud-wagon</artifactId>
       <version>0.0.6</version>
     </extension>
-  </extensions>
-
+</extensions>
   </build>
 
 </project>
