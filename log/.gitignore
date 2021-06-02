@@ -1,0 +1,10 @@
+*~
+junit/
+.classpath
+.cproject
+.project
+.settings
+*.properties
+*.class
+*.jar
+target/

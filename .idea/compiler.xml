@@ -10,6 +10,7 @@
         <module name="kraken-examples" />
         <module name="dependency-injector" />
         <module name="config" />
+        <module name="log" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13">
@@ -17,6 +18,7 @@
       <module name="dependency-injector" target="1.8" />
       <module name="kraken" target="13" />
       <module name="kraken-examples" target="13" />
+      <module name="log" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
