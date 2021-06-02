@@ -5,15 +5,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="ini4j-0.5.4" level="project" />
     <orderEntry type="module" module-name="config" />
     <orderEntry type="module" module-name="dependency-injector" />
     <orderEntry type="module" module-name="kraken" />
-    <orderEntry type="library" name="log" level="project" />
-    <orderEntry type="library" name="kraken-display" level="project" />
-    <orderEntry type="library" name="kraken-examples-1.0" level="project" />
-    <orderEntry type="library" name="config-1.4" level="project" />
-    <orderEntry type="library" name="dependency-injector-1.1" level="project" />
     <orderEntry type="library" name="junit:junit:4.13.2" level="project" />
   </component>
 </module>

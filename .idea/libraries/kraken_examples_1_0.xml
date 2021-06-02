@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="kraken-examples-1.0">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/examples/target/kraken-examples-1.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

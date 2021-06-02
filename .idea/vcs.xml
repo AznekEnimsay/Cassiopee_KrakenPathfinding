@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/The-Kraken-Pathfinding" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/The-Kraken-Pathfinding/config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/The-Kraken-Pathfinding/dependency-injector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/The-Kraken-Pathfinding/kraken-display" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/The-Kraken-Pathfinding/log" vcs="Git" />
   </component>
 </project>
