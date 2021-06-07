@@ -1,0 +1,3 @@
+[submodule "The-Kraken-Pathfinding"]
+	path = The-Kraken-Pathfinding
+	url = https://github.com/kraken-robotics/The-Kraken-Pathfinding.git
